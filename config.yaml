@@ -1,0 +1,13 @@
+
+ALGORITHM:
+  NAME: 'QLearning' # 'PolicyIteration' / 'MonteCarlo' / 'QLearning' / 'SARSA'
+  NUM_EPISODS: 500 # Both
+  NUM_STEPS: 500 # ModelFree
+  DISCOUNT_FACTOR: 0.9 # Both
+  EPSILON_GREEDY: 0.99 # ModelFree
+  DECAY: 0.99 # ModelFree
+  ALPHA: 0.9 # ModelFree
+  THETA: 1e-12 # ModelBased
+
+MAZE:
+  SIZE: 15 # 5 / 15 / 25
