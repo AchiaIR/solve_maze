@@ -57,9 +57,11 @@ def SetEnv(maze_configs):
 
 
 def SetAlgorithm(algorithm_configs, env):
-    AlgoClass, is_model_based = algo_dict.get(algorithm_configs.NAME)
-    if AlgoClass is None:
+    algo_value = algo_dict.get(algorithm_configs.NAME)
+    if algo_value is None:
+        print(f"Algorithm name from config: {algorithm_configs.NAME}")
         raise ValueError("Invalid algorithm name")
+    AlgoClass, is_model_based = algo_value
     algo = AlgoClass(env)
     algo.train()
     return algo, is_model_based

@@ -8,7 +8,6 @@ piglet
 IPython
 imageio
 matplotlib
-subprocess
 yacs>=0.1.8
 imageio==2.4.0
 
