@@ -53,3 +53,92 @@ A very detailed explain (including the math) is in solve_maz.pdf attached.
 
 <h2>Getting Started</h2>
 
+<h3>Prerequisites</h3>
+
+* pytghon 3.x installed on your machine
+* Pip (Python package installer)
+* A video tool installed (for example vlc) 
+
+<h3>Installation</h3>
+
+* <h3>Windows:</h3>
+
+1. Clone this repository or download and extract the ZIP file:
+
+   `git clone https://github.com/AchiaIR/solve_maze.git`
+
+2. Navigate to the directory where you cloned or extracted the project:
+
+   `cd solve_maze`
+   
+3. Install the necessary dependencies:
+
+   `pip install -r requirements.txt`
+
+   or:
+
+   `pip install .`
+
+   or:
+
+   `python setup.py install` 
+   
+* <h3>Linux:</h3>
+
+1. Clone this repository or download and extract the ZIP file:
+
+   `git clone https://github.com/AchiaIR/solve_maze.git`
+
+2. Navigate to the directory where you cloned or extracted the project:
+
+   `cd solve_maze`
+   
+3. Install the necessary dependencies:
+
+   `pip3 install -r requirements.txt`
+
+   or:
+
+   `pip3 install .`
+
+   or:
+   
+   `pip3 install setuptools`
+   
+   `python3 setup.py install`
+
+<h3>Usage</h3>
+
+* <h3>Windows:</h3>
+
+Run the run.bat script:
+
+`run`
+
+you can also define the main parameters (algorithm and maze size), for example:
+
+`run SARSA 25`
+
+* <h3>Linux:</h3>
+
+1. Make the script executable (only need to do this once):
+
+   `chmod +x file.sh`
+
+2. Run the file.sh script:
+
+   `./run.sh`
+
+   you can also define the main parameters (algorithm and maze size), for example:
+
+   `./run.sh SARSA 25`
+   
+
+<h2>Advanced Usage</h2>
+
+If you want to explore the project further, you can control each parameter from the config.yaml file, 
+then run it via cmd or on a python IDE such as pycharm. By each of the parameters in the yaml it mentioned 
+if it's relevant for model free / model based / both. you can play with these parameteres and learn abouth the 
+power of these algorithms. 
+In addition there is an option to change the rewward manually, to encourage a better reward division for a better results.
+
