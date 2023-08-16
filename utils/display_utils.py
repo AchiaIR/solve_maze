@@ -42,8 +42,14 @@ def DisplayVideo(algo, env, name, is_model_based, max_time=10):
   embed_mp4(video_filename)
   try:
     if os.name == 'nt':
-      os.startfile(video_filename)  # Windows
+        os.startfile(video_filename)  # Windows
     else:
-      subprocess.call(['xdg-open', video_filename])  # Linux and macOS
+        # Try xdg-open first
+        try:
+            subprocess.call(['xdg-open', video_filename])
+        # Fallback to gio open
+        except FileNotFoundError:
+            subprocess.call(['gio', 'open', video_filename])
   except Exception as e:
     print("Error opening the video:", e)
+
