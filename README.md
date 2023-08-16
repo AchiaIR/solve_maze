@@ -16,6 +16,7 @@ Each RL technique we employ offers a unique approach:
 * **SARSA:** Standing for State-Action-Reward-State-Action, SARSA learns by updating the value of the just-taken action based on the current reward and the value of the next possible action. It's more cautious than Q-learning, always thinking one step ahead.
 
 <h2>Overview</h2>
+
 We make use of 4 algorithms: Policy Iteration (Dynamic Programming), Monte-Carlo, Q-Learning (Temporal Difference Method) and SARSA (Temporal Difference Method). 
 Policy Iteration is a model based method and the others: Monte-Carlo, Q-Learning and SARSA, are model-free algorithms. 
 we applied these algorithms on a 5x5, 15x15 and 25x25 stochastic maze boards.
@@ -30,6 +31,7 @@ often uncertain.
 A very detailed explain (including the math) is in solve_maz.pdf attached.
 
 <h2>Project Content Description</h2>
+
 <h3>Python Content Description</h3>
 
 * **algorithms:** A folder contains the implementation of the RL algorithms, divided to 2 folders: 
