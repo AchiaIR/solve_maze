@@ -1,4 +1,5 @@
 
+
 gym
 tqdm
 numpy
@@ -6,7 +7,6 @@ gdown
 pygame
 piglet
 IPython
-imageio
 matplotlib
 yacs>=0.1.8
 imageio==2.9.0
