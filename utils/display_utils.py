@@ -46,8 +46,7 @@ def DisplayVideo(algo, env, name, is_model_based, max_time=10):
     else:
         # Try xdg-open first
         try:
-            subprocess.call(['vlc', video_filename])
-            # subprocess.call(['xdg-open', video_filename])
+            subprocess.call(['xdg-open', video_filename])
         # Fallback to gio open
         except FileNotFoundError:
             subprocess.call(['gio', 'open', video_filename])
