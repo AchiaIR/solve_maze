@@ -5,7 +5,9 @@
 
 
 
-<h2>About The Project</h2>
+<h2> $\color{red}{ About \ The \ Project }$ </h2>
+
+
 This project is all about exploring Reinforcement Learning (RL) basic algorithms. We use mazes of different sizes as our playground to see how different RL techniques can find their way out. 
 
 Each RL technique we employ offers a unique approach:
@@ -15,7 +17,11 @@ Each RL technique we employ offers a unique approach:
 * **Q-learning:** A model-free algorithm, Q-learning learns by trial and error. It gauges the value of an action in a particular state and refines its strategy over time, making it adaptable and dynamic.
 * **SARSA:** Standing for State-Action-Reward-State-Action, SARSA learns by updating the value of the just-taken action based on the current reward and the value of the next possible action. It's more cautious than Q-learning, always thinking one step ahead.
 
-<h2>Overview</h2>
+
+<span> ───────────────────────────────────────────── </span>
+
+
+<h2> $\color{red}{Overview }$ </h2>
 
 We make use of 4 algorithms: Policy Iteration (Dynamic Programming), Monte-Carlo, Q-Learning (Temporal Difference Method) and SARSA (Temporal Difference Method). 
 Policy Iteration is a model based method and the others: Monte-Carlo, Q-Learning and SARSA, are model-free algorithms. 
@@ -30,9 +36,14 @@ and can better represent real-world problems, where the outcome of actions is
 often uncertain.
 A very detailed explain (including the math) is in solve_maz.pdf attached.
 
-<h2>Project Content Description</h2>
+<span> ───────────────────────────────────────────── </span>
 
-<h3>Python Content Description</h3>
+
+<h2> $\color{red}{ Project \ Content \ Description }$ </h2>
+
+<h3> $\color{lime}{Python \ Content  \ Description}$ </h3>
+
+
 
 * **algorithms:** A folder contains the implementation of the RL algorithms, divided to 2 folders: 
     - model based
@@ -44,24 +55,27 @@ A very detailed explain (including the math) is in solve_maz.pdf attached.
 * **solve_maze.py:** The main file - the file which runs the project
 * **setup.py:** the file to use in installation
 
-<h3>Other supporting Content Description</h3>
+<h3>$\color{lime}{Other \ supporting \ Content \ Description}$</h3>
 
 * **comfig.yaml:** A file that defines the configuration to use
 * **requirements.txt:** A file that defines the libraris to install for running the project
 * **run.bat:** A file which runs the project from command  - windows
 * **run.sh:** A file which runs the project from command  - linux / mac
 
-<h2>Getting Started</h2>
+<span> ───────────────────────────────────────────── </span>
 
-<h3>Prerequisites</h3>
+
+<h2> $\color{red}{ Getting \ Started }$ </h2>
+
+<h3>$\color{lime}{Prerequisites}$</h3>
 
 * pytghon 3.x installed on your machine
 * Pip (Python package installer)
 * A video tool installed (for example vlc) 
 
-<h3>Installation</h3>
+<h3>$\color{lime}{Installation}$</h3>
 
-* <h3>Windows:</h3>
+* <h3>$\color{cyan}{Windows:}$</h3>
 
 1. Clone this repository or download and extract the ZIP file:
 
@@ -83,7 +97,7 @@ A very detailed explain (including the math) is in solve_maz.pdf attached.
 
    `python setup.py install` 
    
-* <h3>Linux:</h3>
+* <h3>$\color{cyan}{Linux:}$</h3>
 
 1. Clone this repository or download and extract the ZIP file:
 
@@ -107,9 +121,9 @@ A very detailed explain (including the math) is in solve_maz.pdf attached.
    
    `python3 setup.py install`
 
-<h3>Usage</h3>
+<h3>$\color{lime}{Usage}$</h3>
 
-* <h3>Windows:</h3>
+* <h3>$\color{cyan}{Windows:}$</h3>
 
 Run the run.bat script:
 
@@ -119,7 +133,7 @@ you can also define the main parameters (algorithm and maze size), for example:
 
 `run SARSA 25`
 
-* <h3>Linux:</h3>
+* <h3>$\color{cyan}{Linux:}$</h3>
 
 1. Make the script executable (only need to do this once):
 
@@ -132,13 +146,31 @@ you can also define the main parameters (algorithm and maze size), for example:
    you can also define the main parameters (algorithm and maze size), for example:
 
    `./run.sh SARSA 25`
-   
 
-<h2>Advanced Usage</h2>
+<span> ───────────────────────────────────────────── </span>
+
+<h2>$\color{red}{Advanced \ Usage}$</h2>
+
+The algorithms to use in the command line are:
+
+- PolicyIteration
+- MonteCarlo
+- QLearning
+- SARSA
+  
+And the maze sizes are:
+
+- 5
+- 15
+- 25
+
+Each of those combination is possible, but it won't always solve the maze. since the algorithm has exploration part in it (Epsilon Greedy)
+And the environement is Stochastic (has a random aspect) not each time you try the maze will be solved properly.
 
 If you want to explore the project further, you can control each parameter from the config.yaml file, 
 then run it via cmd or on a python IDE such as pycharm. By each of the parameters in the yaml it mentioned 
 if it's relevant for model free / model based / both. you can play with these parameteres and learn abouth the 
 power of these algorithms. 
+
 In addition there is an option to change the rewward manually, to encourage a better reward division for a better results.
 
