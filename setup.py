@@ -18,6 +18,7 @@ setup(
         'imageio',
         'matplotlib',
         'yacs >= 0.1.8',
+        'imageio-ffmpeg',
         'imageio == 2.4.0',
     ],
     package_data={
