@@ -151,7 +151,7 @@ you can also define the main parameters (algorithm and maze size), for example:
 
 <h2>$\color{red}{Advanced \ Usage}$</h2>
 
-The algorithms to use in the command line are:
+The algorithms names to use in the command line are:
 
 - PolicyIteration
 - MonteCarlo
