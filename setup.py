@@ -19,7 +19,7 @@ setup(
         'matplotlib',
         'yacs >= 0.1.8',
         'imageio-ffmpeg',
-        'imageio == 2.4.0',
+        'imageio == 2.9.0',
     ],
     package_data={
         'algorithms': ['model_based/*.py', 'model_based/__init__.py',
