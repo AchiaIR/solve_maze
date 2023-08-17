@@ -174,3 +174,9 @@ power of these algorithms.
 
 In addition there is an option to change the rewward manually, to encourage a better reward division for a better results.
 
+<span> ───────────────────────────────────────────── </span>
+
+<h2>$\color{red}{Acknowledgments}$</h2>
+
+Based on a project in Reinforcement Learning course, Reichman University
+
