@@ -97,7 +97,7 @@ A very detailed explain (including the math) is in solve_maze.pdf attached.
 
    `python setup.py install` 
    
-* <h3>$\color{cyan}{Linux & mac:}$</h3>
+* <h3>$\color{cyan}{Linux \ and \ Mac:}$</h3>
 
 1. Clone this repository or download and extract the ZIP file:
 
@@ -133,7 +133,7 @@ you can also define the main parameters (algorithm and maze size), for example:
 
 `run SARSA 25`
 
-* <h3>$\color{cyan}{Linux & mac:}$</h3>
+* <h3>$\color{cyan}{Linux \ and \ Mac:}$</h3>
 
 1. Make the script executable (only need to do this once):
 
