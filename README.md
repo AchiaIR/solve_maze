@@ -34,7 +34,7 @@ generally easier than solving a stochastic maze because the agent can rely on it
 past experience to make decisions. However, stochastic mazes are more realistic
 and can better represent real-world problems, where the outcome of actions is
 often uncertain.
-A very detailed explain (including the math) is in solve_maz.pdf attached.
+A very detailed explain (including the math) is in solve_maze.pdf attached.
 
 <span> ───────────────────────────────────────────── </span>
 
