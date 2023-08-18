@@ -3,10 +3,29 @@
 <img src="https://github.com/AchiaIR/solve_maze/blob/master/solvemazeexample.gif" width="500" height="500" />
 </div>
 
+## Table of Contents
 
+- <a href="#solve-maze-with-reinforcement-learning">Solve Maze with Reinforcement Learning</a>
+- <a href="#about-the-project">About The Project</a>
+- <a href="#overview">Overview</a>
+- <a href="#project-content-description">Project Content Description</a>
+  - <a href="#python-content-description">Python Content Description</a>
+  - <a href="#other-supporting-content-description">Other Supporting Content Description</a>
+- <a href="#getting-started">Getting Started</a>
+  - <a href="#prerequisites">Prerequisites</a>
+  - <a href="#installation">Installation</a>
+    - <a href="#windows">Windows</a>
+    - <a href="#linux-and-mac">Linux and Mac</a>
+  - <a href="#usage">Usage</a>
+    - <a href="#windows">Windows</a>
+    - <a href="#linux-and-mac">Linux and Mac</a>
+- <a href="#advanced-usage">Advanced Usage</a>
+- <a href="#acknowledgments">Acknowledgments</a>
 
+<span> ───────────────────────────────────────────── </span>
+
+<a name="about-the-project"></a>
 <h2> $\color{red}{ About \ The \ Project }$ </h2>
-
 
 This project is all about exploring Reinforcement Learning (RL) basic algorithms. We use mazes of different sizes as our playground to see how different RL techniques can find their way out. 
 
@@ -20,7 +39,7 @@ Each RL technique we employ offers a unique approach:
 
 <span> ───────────────────────────────────────────── </span>
 
-
+<a name="overview"></a>
 <h2> $\color{red}{Overview }$ </h2>
 
 We make use of 4 algorithms: Policy Iteration (Dynamic Programming), Monte-Carlo, Q-Learning (Temporal Difference Method) and SARSA (Temporal Difference Method). 
@@ -38,9 +57,10 @@ A very detailed explain (including the math) is in solve_maze.pdf attached.
 
 <span> ───────────────────────────────────────────── </span>
 
-
+<a name="project-content-description"></a>
 <h2> $\color{red}{ Project \ Content \ Description }$ </h2>
 
+<a name="python-content-description"></a>
 <h3> $\color{lime}{Python \ Content  \ Description}$ </h3>
 
 
@@ -55,6 +75,7 @@ A very detailed explain (including the math) is in solve_maze.pdf attached.
 * **solve_maze.py:** The main file - the file which runs the project
 * **setup.py:** the file to use in installation
 
+<a name="other-supporting-content-description"></a>
 <h3>$\color{lime}{Other \ supporting \ Content \ Description}$</h3>
 
 * **comfig.yaml:** A file that defines the configuration to use
@@ -64,17 +85,20 @@ A very detailed explain (including the math) is in solve_maze.pdf attached.
 
 <span> ───────────────────────────────────────────── </span>
 
-
+<a name="getting-started"></a>
 <h2> $\color{red}{ Getting \ Started }$ </h2>
 
+<a name="prerequisites"></a>
 <h3>$\color{lime}{Prerequisites}$</h3>
 
 * pytghon 3.x installed on your machine
 * Pip (Python package installer)
 * A video tool installed (for example vlc) 
 
+<a name="installation"></a>
 <h3>$\color{lime}{Installation}$</h3>
 
+<a name="windows"></a>
 * <h3>$\color{cyan}{Windows:}$</h3>
 
 1. Clone this repository or download and extract the ZIP file:
@@ -96,7 +120,8 @@ A very detailed explain (including the math) is in solve_maze.pdf attached.
    or:
 
    `python setup.py install` 
-   
+
+<a name="linux-and-mac"></a>   
 * <h3>$\color{cyan}{Linux \ and \ Mac:}$</h3>
 
 1. Clone this repository or download and extract the ZIP file:
@@ -121,8 +146,10 @@ A very detailed explain (including the math) is in solve_maze.pdf attached.
    
    `python3 setup.py install`
 
+<a name="usage"></a>
 <h3>$\color{lime}{Usage}$</h3>
 
+<a name="windows"></a>
 * <h3>$\color{cyan}{Windows:}$</h3>
 
 Run the run.bat script:
@@ -133,6 +160,7 @@ you can also define the main parameters (algorithm and maze size), for example:
 
 `run SARSA 25`
 
+<a name="linux-and-mac"></a>
 * <h3>$\color{cyan}{Linux \ and \ Mac:}$</h3>
 
 1. Make the script executable (only need to do this once):
@@ -149,6 +177,7 @@ you can also define the main parameters (algorithm and maze size), for example:
 
 <span> ───────────────────────────────────────────── </span>
 
+<a name="advanced-usage"></a>
 <h2>$\color{red}{Advanced \ Usage}$</h2>
 
 The algorithms names to use in the command line are:
@@ -176,6 +205,7 @@ In addition there is an option to change the rewward manually, to encourage a be
 
 <span> ───────────────────────────────────────────── </span>
 
+<a name="acknowledgments"></a>
 <h2>$\color{red}{Acknowledgments}$</h2>
 
 Based on a project in Reinforcement Learning course, Reichman University
