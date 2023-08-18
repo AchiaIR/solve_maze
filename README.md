@@ -203,6 +203,8 @@ power of these algorithms.
 
 In addition there is an option to change the rewward manually, to encourage a better reward division for a better results.
 
+Iv'e added the google colab notebook also to get better understanding of how to choose the best parameters.
+
 <span> ───────────────────────────────────────────── </span>
 
 <a name="acknowledgments"></a>
