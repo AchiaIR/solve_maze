@@ -193,8 +193,8 @@ And the maze sizes are:
 - 15
 - 25
 
-Each of those combination is possible, but it won't always solve the maze. since the algorithm has exploration part in it (Epsilon Greedy)
-And the environement is Stochastic (has a random aspect) not each time you try the maze will be solved properly.
+Each of those combinations is possible, but it won't always solve the maze. Since the algorithm has exploration part in it (Epsilon Greedy)
+And the environement is Stochastic (has a random aspect) not each time you try - the maze will be solved properly.
 
 If you want to explore the project further, you can control each parameter from the config.yaml file, 
 then run it via cmd or on a python IDE such as pycharm. By each of the parameters in the yaml it mentioned 
