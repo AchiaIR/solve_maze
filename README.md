@@ -3,7 +3,7 @@
 <img src="https://github.com/AchiaIR/solve_maze/blob/master/solvemazeexample.gif" width="500" height="500" />
 </div>
 
-## Table of Contents
+## 🔴 Table of Contents
 
 - <a href="#solve-maze-with-reinforcement-learning">Solve Maze with Reinforcement Learning</a>
 - <a href="#about-the-project">About The Project</a>
@@ -25,7 +25,7 @@
 <span> ───────────────────────────────────────────── </span>
 
 <a name="about-the-project"></a>
-<h2> $\color{red}{ About \ The \ Project }$ </h2>
+<h2> 🔴  About The Project </h2>
 
 This project is all about exploring Reinforcement Learning (RL) basic algorithms. We use mazes of different sizes as our playground to see how different RL techniques can find their way out. 
 
@@ -40,7 +40,7 @@ Each RL technique we employ offers a unique approach:
 <span> ───────────────────────────────────────────── </span>
 
 <a name="overview"></a>
-<h2> $\color{red}{Overview }$ </h2>
+<h2> 🔴 Overview </h2>
 
 We make use of 4 algorithms: Policy Iteration (Dynamic Programming), Monte-Carlo, Q-Learning (Temporal Difference Method) and SARSA (Temporal Difference Method). 
 Policy Iteration is a model based method and the others: Monte-Carlo, Q-Learning and SARSA, are model-free algorithms. 
@@ -58,11 +58,10 @@ A very detailed explain (including the math) is in solve_maze.pdf attached.
 <span> ───────────────────────────────────────────── </span>
 
 <a name="project-content-description"></a>
-<h2> $\color{red}{ Project \ Content \ Description }$ </h2>
+<h2> 🔴 Project Content Description </h2>
 
 <a name="python-content-description"></a>
 <h3> $\color{lime}{Python \ Content  \ Description}$ </h3>
-
 
 
 * **algorithms:** A folder contains the implementation of the RL algorithms, divided to 2 folders: 
@@ -86,7 +85,7 @@ A very detailed explain (including the math) is in solve_maze.pdf attached.
 <span> ───────────────────────────────────────────── </span>
 
 <a name="getting-started"></a>
-<h2> $\color{red}{ Getting \ Started }$ </h2>
+<h2> 🔴 Getting Started </h2>
 
 <a name="prerequisites"></a>
 <h3>$\color{lime}{Prerequisites}$</h3>
@@ -178,7 +177,7 @@ you can also define the main parameters (algorithm and maze size), for example:
 <span> ───────────────────────────────────────────── </span>
 
 <a name="advanced-usage"></a>
-<h2>$\color{red}{Advanced \ Usage}$</h2>
+<h2> 🔴 Advanced Usage </h2>
 
 The algorithms names to use in the command line are:
 
@@ -208,7 +207,7 @@ Iv'e added the google colab notebook also to get better understanding of how to 
 <span> ───────────────────────────────────────────── </span>
 
 <a name="acknowledgments"></a>
-<h2>$\color{red}{Acknowledgments}$</h2>
+<h2> 🔴 Acknowledgments </h2>
 
 Based on a project in Reinforcement Learning course, Reichman University
 
